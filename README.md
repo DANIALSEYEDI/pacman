@@ -1,8 +1,8 @@
 Pacman Game Project
 
-Description
+Overview
 
-This is an exciting implementation of the classic Pacman game written in C. The project includes the core game logic, menu system, and map rendering, providing a nostalgic gaming experience. Developed as a personal project, it showcases programming skills in C with a focus on game development basics.
+Welcome to the Pacman Game Project, a modern take on the classic arcade game, developed in C with a focus on performance and user experience. Released on June 29, 2025, this project showcases advanced game development techniques and provides an immersive gaming environment.
 
 Features
 
@@ -10,19 +10,30 @@ Features
 
 
 
-Classic Pacman gameplay with movable characters.
+Sound Effects: Enjoy immersive audio feedback with dynamically triggered sound effects during gameplay.
 
 
 
-Interactive menu system.
+Top 10 High Scores Display: Track and display the top 10 high scores, celebrating the best players.
 
 
 
-Custom map rendering.
+Replay System: Relive your last game with the built-in replay feature, allowing you to watch your moves.
 
 
 
-Built using CMake for easy compilation.
+Interactive Menu: Navigate through an intuitive menu system to start, replay, or view scores.
+
+
+
+Custom Map Rendering: Experience beautifully rendered maps with smooth Pacman movement.
+
+Screenshots
+
+
+
+
+(Add more screenshots by uploading additional images to the repository and updating links accordingly.)
 
 Prerequisites
 
@@ -30,7 +41,7 @@ Prerequisites
 
 
 
-A C compiler (e.g., GCC or Clang).
+A C compiler (e.g., GCC or Clang, version 9.0 or higher).
 
 
 
@@ -38,7 +49,7 @@ CMake (version 3.10 or higher).
 
 
 
-Windows operating system (tested on Windows 10).
+Windows 10 or later (tested on version 10.0.26100.4349).
 
 Installation
 
@@ -60,7 +71,7 @@ cd build
 
 
 
-Run CMake to configure the project:
+Configure the project with CMake:
 
 cmake ..
 
@@ -72,7 +83,7 @@ cmake --build .
 
 
 
-Run the game:
+Launch the game:
 
 pacman.exe
 
@@ -82,23 +93,23 @@ Usage
 
 
 
-Use arrow keys to navigate Pacman.
+Controls: Use arrow keys to move Pacman, 'Esc' to return to the menu, and 'R' to replay your last game.
 
 
 
-Avoid ghosts and collect all dots to win.
+Gameplay: Collect all dots, avoid ghosts, and aim for the top of the high score list.
 
 
 
-Press 'Esc' to return to the menu or exit.
+Menu: Access scores, replays, and settings from the main menu.
 
 Contributing
 
-Feel free to fork this repository and submit pull requests. Suggestions and improvements are welcome!
+We welcome contributions! Please fork this repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss.
 
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details (if applicable).
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
 
@@ -106,8 +117,16 @@ Acknowledgments
 
 
 
-Inspired by the original Pacman game by Namco.
+Inspired by the iconic Pacman game by Namco.
 
 
 
-Thanks to the open-source community for CMake and C libraries.
+Special thanks to the open-source community for CMake and C libraries.
+
+
+
+Grateful to all contributors and testers who helped shape this project.
+
+Contact
+
+For questions or feedback, feel free to open an issue on this repository or reach out via the project maintainers' GitHub profiles.

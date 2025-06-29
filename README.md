@@ -1,67 +1,54 @@
-# **Student Management System**
+# 🎮 Pac-Man (C Language) - Final Project
 
-This project is a **Java** application designed for managing student information, utilizing **inheritance** to structure its classes efficiently. It allows adding students and handling access permissions, processing and storing data with simple data structures while supporting specific input formats.
+This project is a simple version of the classic **Pac-Man** game, implemented in C language as a final project for the "Introduction to Computer and Programming" course at Amirkabir University of Technology.
 
-## **Features**
-- **Add Student**: Register student details such as first name, last name, student ID, password, birth year, and address.
-- **Access Management**: Supports **Admin** and **Regular User** roles with different access levels.
-- **Inheritance-Based Design**: Uses Java inheritance to organize classes, enhancing code modularity and reusability.
-- **Persian Language Support**: Processes Persian inputs for names and addresses.
+## 🧠 Project Goals
 
-![Student Management System](https://via.placeholder.com/600x300.png?text=Student+Management+System)
+The objectives of this project are:
+- Strengthen understanding of basic programming concepts such as data structures, algorithms, and control flow.
+- Learn to work with the terminal to create a user interface.
+- Understand how to design simple games and implement their logic in C.
 
-## **Installation and Setup**
-To use this project, you need the Java Development Kit (JDK) installed. Follow these steps:
+## 🕹️ Game Features
 
-1. **Install JDK**: Ensure JDK version 8 or higher is installed.
-   ```bash
-   java -version
-   ```
-2. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/student-management-system.git
-   ```
-3. **Compile and Run**:
-   ```bash
-   cd student-management-system
-   javac Main.java
-   java Main
-   ```
+- Interactive menu with options: Start Game, View Records, Exit
+- Pac-Man movement using arrow keys
+- 2D map rendering and scalable map design
+- Randomly distributed stars on the map
+- Two types of ghosts with different behaviors:
+  - Random movement (wandering)
+  - Player-chasing (targeted AI)
+- Life system and Game Over upon ghost collision
+- Special items:
+  - 🍒 Cherry: enables Pac-Man to eat ghosts
+  - 🌶️ Pepper: increases speed
+  - 🍎 Apple: adds extra life
+  - 🍄 Poison Mushroom: decreases a life
+- Score saving with timestamp and display of top 10 players
+- Three difficulty levels: Easy, Medium, Hard
+- Visual and sound effects to enhance user experience
+- Gameplay recording and replay system
 
-## **Required Inputs**
-The program requires the following inputs to register a student:
+## 🛠️ Technologies Used
 
-- **Admin Username**: `admin`
-- **Admin Password**: `AdminPass`
-- **Student ID**: A unique identifier (e.g., `14010011234`)
-- **Password**: Student's password (e.g., `Passwd`)
-- **First Name**: Student's first name (e.g., `Test`)
-- **Last Name**: Student's last name (e.g., `Testi`)
-- **Phone Number**: A 10-digit phone number (e.g., `0123456789`)
-- **Birth Year**: Year of birth (e.g., `1382`)
-- **Address**: Student's address (e.g., `Tehran, Mirdamad`)
+- C Programming Language
+- Console-based UI (Terminal)
+- Standard C libraries (stdio.h, stdlib.h, etc.)
 
-Example input format:
-```
-add-student # admin|AdminPass|14010011234|Passwd|Test|Testi|0123456789|1382|Tehran, Mirdamad
+## 🚀 Getting Started
+
+To compile and run the game:
+```bash
+gcc -o pacman main.c -lm
+./pacman
 ```
 
-## **Usage**
-1. Run the program using the commands above.
-2. Enter the required inputs in the specified format.
-3. The program will process and store the student information.
+Ensure you have a GCC compiler and terminal support for optimal experience.
 
-## **Screenshots**
-![Sample Input](https://via.placeholder.com/600x300.png?text=Sample+Input+Screen)
-*Caption: Example of input format for adding a student.*
+## 📁 Project Structure
 
-## **Contributing**
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a Pull Request.
-
-## **Contact**
-For questions or suggestions, feel free to open an issue or contact the repository owner.
+- `main.c` - Entry point and main loop
+- `game.c / game.h` - Game logic and functions
+- `map.c / map.h` - Map generation and rendering
+- `utils.c / utils.h` - Helper functions and constants
+- `record.c / record.h` - Record saving and loading
